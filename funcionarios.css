@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(194, 194, 213);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(250, 98, 240);
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+
+
+a {
+    color: rgb(245, 245, 245);
+    border: 2px solid rgb(239, 95, 220);
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    margin: 5px;
+    
+    }
+nav {
+    margin: 20px 0;
+}
+
+
+
+a:hover{
+    color: rgb(239, 95, 219);
+}
+
+table {
+    background-color: rgb(253, 136, 238);
+    border-spacing: 0;
+    margin-left: 45rem;
+    border: 3px rgb(239, 95, 220);
+   
+}
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="pagina-venda.css">
+</head>
+<body>
+    <div id="div1">
+        <h1>T-shirt Sports/Pagina de Vendas</h1>
+    </div>
+    
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+        <a href="pagina-venda.html">Pagina venda</a>
+        <a href="./historico-venda.html">Histórico de vendas</a>
+    </nav>
+
+    
+    <h2>Adicionar Produto</h2>
+    <form action="">
+        <div>
+            <label for="link-foto">Nome do produto: </label>
+            <input type="url" id="link-foto" name="link-foto">
+        </div>
+        
+        <div>
+            <label for="descricao">Descrição do produto: </label>
+            <!-- Adicione o id apropriado para o input abaixo -->
+            <input type="text" id="descricao-produto" name="descrição">
+        </div>
+        
+        <div>
+            <label for="preco">Preço (em R$): </label>
+            <!-- Adicione o id apropriado e o type para receber números abaixo -->
+            <input type="number" id="preco-produto" name="preço">
+        </div>
+        
+        <br><label>Opções de pagamento:</label><br>
+        <div>
+            <input type="radio" name="opcoes-pagamento" id="cartao" value="cartao">
+            <label for="cartao">Cartão</label><br>
+        </div>
+        <div>
+            <input type="radio" name="opcoes-pagamento" id="hora-entrega" value="dinheiro">
+            <label for="DINHEIRO">Pagamento na entrega-dinheiro</label><br>
+        </div>
+        <div>
+            <input type="radio" name="opcoes-pagamento" id="pix" value="pix">
+            <label for="PIX">Pix</label><br>
+        </div>
+
+        <input type="submit" value="Enviar">
+
+    
+
+
+    
+</body>
+</html>
